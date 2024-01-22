@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Fruit Burst</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
 
     <!-- font awesome cdn -->
     <link
@@ -52,18 +52,16 @@
   <body class="font-Lato box-border">
     <!-- header section -->
     <header class="container mx-auto xl:24 lg:px-10 px-4">
-
+      <!-- navbar section -->
       <nav class="my-12 bg-commonColor py-2 rounded-full px-4 text-white">
         <div class="navbar">
-
-           <div class="navbar-start hidden lg:flex">
+          <div class="navbar-start hidden lg:flex">
             <ul class="menu menu-horizontal px-1 text-lg">
               <li><a>Home</a></li>
-                <li><a>About Us</a></li>
-                <li><a>Shop</a></li>
-                <li><a>All Fruit</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All Fruit</a></li>
             </ul>
-
           </div>
 
           <div class="navbar-center">
@@ -95,20 +93,176 @@
               </ul>
             </div>
             <div class="flex items-center justify-center">
-              <img src="./images/logo.png" class="w-10" alt="">
-              <a class="btn btn-ghost text-xl lg:text-2xl xl:text-4xl">daisyUI</a>
+              <img src="./images/logo.png" class="w-10" alt="" />
+              <a class="btn btn-ghost text-xl lg:text-2xl xl:text-4xl"
+                >Fruit Burst</a
+              >
             </div>
           </div>
 
-
           <div class="navbar-end hidden sm:flex">
-            <input class="py-3 pl-5 xl:w-96 rounded-full text-left border-none outline-none text-black" type="text" name="search" id="search" placeholder="Search here">
-            <i class="fa-solid fa-magnifying-glass -translate-x-10 text-black"></i>
+            <input
+              class="py-3 pl-5 xl:w-96 rounded-full text-left border-none outline-none text-black"
+              type="text"
+              name="search"
+              id="search"
+              placeholder="Search here"
+            />
+            <i
+              class="fa-solid fa-magnifying-glass -translate-x-10 text-black"
+            ></i>
           </div>
-
         </div>
       </nav>
-      
+
+      <!-- hero section -->
+      <section>
+        <div class="carousel w-full h-[600px]">
+          <!-- slide 1 -->
+          <div
+            id="slide1"
+            class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner1.png)] bg-center bg-cover rounded-lg"
+          >
+            <div class="hero text-white">
+              <div class="hero-content text-center">
+                <div class="max-w-md">
+                  <h1 class="text-5xl font-bold">
+                    Exotic tastes at your doorstep
+                  </h1>
+                  <p class="py-6">We supply highly quality organic products</p>
+                  <button
+                    class="btn bg-commonColor hover:bg-commonColor rounded-lg text-white"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide4" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+
+          <!-- slide 2 -->
+          <div
+            id="slide2"
+            class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner2.png)] bg-center bg-cover rounded-lg"
+          >
+            <div class="hero text-white">
+              <div class="hero-content text-center">
+                <div class="max-w-md">
+                  <h1 class="text-5xl font-bold">
+                    Exotic tastes at your doorstep
+                  </h1>
+                  <p class="py-6">We supply highly quality organic products</p>
+                  <button
+                    class="btn bg-commonColor hover:bg-commonColor rounded-lg text-white"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+
+          <!-- slide 3 -->
+          <div
+            id="slide3"
+            class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner3.png)] bg-center bg-cover rounded-lg"
+          >
+            <div class="hero text-white">
+              <div class="hero-content text-center">
+                <div class="max-w-md">
+                  <h1 class="text-5xl font-bold">
+                    Exotic tastes at your doorstep
+                  </h1>
+                  <p class="py-6">We supply highly quality organic products</p>
+                  <button
+                    class="btn bg-commonColor hover:bg-commonColor rounded-lg text-white"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+
+          <!-- slide 4 -->
+          <div
+            id="slide4"
+            class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner4.png)] bg-center bg-cover rounded-lg"
+          >
+            <div class="hero text-white">
+              <div class="hero-content text-center">
+                <div class="max-w-md">
+                  <h1 class="text-5xl font-bold">
+                    Exotic tastes at your doorstep
+                  </h1>
+                  <p class="py-6">We supply highly quality organic products</p>
+                  <button
+                    class="btn bg-commonColor hover:bg-commonColor rounded-lg text-white"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide3" class="btn btn-circle">❮</a>
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+        </div>
+        <section
+          class="bg-white rounded-lg w-4/5 py-7  mx-auto -translate-y-32 grid grid-cols-2 lg:grid-cols-4 shadow-md"
+        >
+          <!-- Strawberry  -->
+          <div class="flex flex-col items-center justify-center">
+            <figure><img src="./images/fruit1.png" alt="Strawberry" /></figure>
+            <h2 class="card-title">Strawberry</h2>
+          </div>
+
+          <!-- Strawberry  -->
+          <div class="flex flex-col items-center justify-center">
+            <figure><img src="./images/fruit2.png" alt="Strawberry" /></figure>
+            <h2 class="card-title">Strawberry</h2>
+          </div>
+          <!-- Strawberry  -->
+          <div class="flex flex-col items-center justify-center">
+            <figure><img src="./images/fruit3.png" alt="Strawberry" /></figure>
+            <h2 class="card-title">Strawberry</h2>
+          </div>
+          <!-- Strawberry  -->
+          <div class="flex flex-col items-center justify-center">
+            <figure><img src="./images/fruit4.png" alt="Strawberry" /></figure>
+            <h2 class="card-title">Strawberry</h2>
+          </div>
+
+        </section>
+      </section>
     </header>
   </body>
 </html>
+
+
